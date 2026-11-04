@@ -20,7 +20,7 @@
 ## 命名约定
 
 - Python 文件：小写 + 下划线，如 `day01_exercises.py`
-- 练习文件：`weekNN/dayNN_exercises.py`；同一天第二份加后缀 `_02`
+- 练习文件：`weekNN/dayNN_exercises.py`；需要拆成多个可独立运行的文件时，放 `weekNN/dayNN/` 子目录，文件名用 `01_xxx.py`、`02_xxx.py` 编号
 - 笔记文件名可以用中文，但不要有空格
 - commit message：`dayNN: 做了什么`，一句话说清
 

@@ -1,6 +1,11 @@
+# 2026-11-05 Day 2 练习
 # 输入一行空格分隔的整数，输出列表、长度、和、最大值、最小值。不许用 sum / max / min，全部手写循环
 line = input("请输入数字:")
 nums = [int(x) for x in line.split()]
+
+if not nums:
+    print("没有输入数字")
+    raise SystemExit
 
 length = 0
 total = 0

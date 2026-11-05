@@ -1,3 +1,4 @@
+# 2026-11-05 Day 2 练习
 # 合并两个字典，重复的键把值相加
 def parse_dict(s):
     d = {}
@@ -18,7 +19,8 @@ def parse_dict(s):
             try:
                 num = float(raw)    # 再试小数
             except ValueError:
-                num = raw           # 都不是就保留字符串
+                print(f"忽略非数字值: {pair}")
+                continue
         d[key.strip()] = num
     return d
 

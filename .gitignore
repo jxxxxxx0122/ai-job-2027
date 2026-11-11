@@ -16,6 +16,10 @@ venv/
 data/
 week*/tmp/
 *.log
+# 练习用的小样本日志要进仓库
+!week*/**/fixtures/*.log
+# 练习题生成的输出文件不提交
+week*/**/fixtures/out.txt
 
 # 编辑器
 .vscode/

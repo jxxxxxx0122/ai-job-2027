@@ -1,0 +1,7 @@
+{
+  "app_name": "loglens",
+  "version": "0.1.0",
+  "log_dir": "data",
+  "debug": true,
+  "owner": "张三"
+}

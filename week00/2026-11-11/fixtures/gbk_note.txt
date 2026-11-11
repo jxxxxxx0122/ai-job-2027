@@ -1,0 +1,3 @@
+这一行是 GBK 编码保存的中文。
+用 UTF-8 打开会报 UnicodeDecodeError。
+工具名：loglens

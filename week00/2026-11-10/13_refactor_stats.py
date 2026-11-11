@@ -21,6 +21,11 @@ def stats(nums):
 def main():
     line = input("请输入空格分隔的整数: ")
     nums = parse_ints(line)
+
+    if not nums:
+        print("没有输入数字")
+        return
+
     total, maximum, minimum = stats(nums)
     print(f"列表：{nums}")
     print(f"长度：{len(nums)}")
